@@ -4,7 +4,7 @@ require_once __DIR__ . '/models/Projeto.php';
 require_once __DIR__ . '/models/Tarefa.php';
 
 $projetoModel = new Projeto();
-tarefaModel = new Tarefa();
+$tarefaModel = new Tarefa();
 
 $pageTitle = 'Dashboard';
 ob_start();
@@ -15,4 +15,5 @@ ob_start();
 $content = ob_get_clean();
 include __DIR__ . '/views/layouts/base.php';
 ?>
+
 
